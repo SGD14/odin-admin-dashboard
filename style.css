@@ -5,7 +5,7 @@
 body {
     margin: 0;
     display: grid;
-    grid-template-columns: 15% 85%;
+    grid-template-columns: 20% 80%;
     grid-template-rows: auto auto;
 }
 
@@ -64,7 +64,7 @@ h3 {
     background-color: #e2e8f0;
     padding: 30px;
     display: grid;
-    grid-template-columns: 8fr 2fr;
+    grid-template-columns: 7fr 2fr;
     gap: 30px;
 }
 
@@ -111,6 +111,12 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.content-widgets {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
 }
 
 .announcements-container > div {
