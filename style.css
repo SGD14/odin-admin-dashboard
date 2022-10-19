@@ -64,7 +64,7 @@ h3 {
     background-color: #e2e8f0;
     padding: 30px;
     display: grid;
-    grid-template-columns: 7fr 3fr;
+    grid-template-columns: 8fr 2fr;
     gap: 30px;
 }
 
@@ -111,4 +111,31 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.announcements-container > div {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 3px 3px 5px gray;
+    display: flex;
+    flex-direction: column;
+}
+
+.announcements-container > div > div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.announcements-container > div > div > * {
+    margin: 0;
+}
+
+.announcements-container > div > div > p {
+    color: #1f2937;
+    font-size: 0.9rem;
+}
+
+.announcements-container > div > div:nth-child(1n + 2) {
+    border-top: 1px solid gray;
 }
