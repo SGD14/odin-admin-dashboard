@@ -1,0 +1,43 @@
+:root {
+    --primary-color: #0ea5e9;
+}
+
+body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    grid-template-rows: 15% 85%;
+}
+
+.sidebar {
+    grid-row: 1 / 3;
+    padding: 25px;
+    background-color: var(--primary-color);
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: repeat(12, 2rem);
+}
+
+.sidebar > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 1fr 1fr;
+}
+
+.content {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
